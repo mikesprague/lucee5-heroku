@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.lucee.heroku</groupId>
+	<artifactId>lucee</artifactId>
+	<packaging>war</packaging>
+	<version>1.0</version>
+	<name>Lucee 5 Heroku Application Template</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<runwar.version>3.1.0</runwar.version>
+		<lucee.version>5.0.0.47-SNAPSHOT</lucee.version>
+	</properties>
+
+	<parent>
+		<groupId>org.lucee</groupId>
+		<artifactId>lucee.pomparent.heroku.runwar</artifactId>
+		<version>1.5.0</version>
+	</parent>
+
+	<repositories>
+		<repository>
+			<id>cfmlprojects</id>
+			<url>http://cfmlprojects.org/artifacts</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+
+	<dependencies></dependencies>
+	<build>
+		<finalName>lucee-heroku</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.6</version>
+				<configuration>
+					<warSourceDirectory>config</warSourceDirectory>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>
