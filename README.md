@@ -24,9 +24,10 @@ $ cd lucee5-heroku
 $ mvn package
 $ foreman start
 ```
-NOTE: On Windows, start foreman with the following command:
+<strike>NOTE: On Windows, start foreman with the following command:</strike>
+Encounterd problems on Windows7 and foreman, use start-local-server.bat to start Winstone and Lucee
 ```bash
-$ foreman start -f Procfile.dev
+.\start-local-server.bat
 ```
 
 You should now have Lucee up and running at [http://localhost:5000](http://localhost:5000).
