@@ -1,1 +1,1 @@
-web: java %JAVA_OPTS% -javaagent:target/lucee-inst.jar -jar target/runwar.jar --port $PORT --host 0.0.0.0 --background false -war target/lucee-heroku
+web: java -javaagent:target/lucee-inst.jar -jar target/runwar.jar --port $PORT --host 0.0.0.0 --background false -war target/lucee-heroku
