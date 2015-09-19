@@ -1,4 +1,4 @@
-[![Dependency Status](https://www.versioneye.com/user/projects/556cc5806365320015074a00/badge.svg?style=flat)](https://www.versioneye.com/user/projects/556cc5806365320015074a00)
+[![Dependency Status](https://www.versioneye.com/user/projects/55a9c9ec306535001b00016c/badge.svg?style=flat)](https://www.versioneye.com/user/projects/55a9c9ec306535001b00016c)
 
 ##Lucee 5 Application Template for Heroku
 Blank application template to deploy [Lucee 5](http://lucee.org) apps on Heroku via [Undertow](http://undertow.io/)/[RunWAR](https://github.com/cfmlprojects/runwar)
