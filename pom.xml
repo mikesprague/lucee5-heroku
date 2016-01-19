@@ -4,13 +4,13 @@
 	<groupId>org.lucee.heroku</groupId>
 	<artifactId>lucee</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.8</version>
+	<version>1.0.9</version>
 	<name>Lucee 5 Heroku Application Template</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
 		<runwar.version>3.1.0</runwar.version>
-		<lucee.version>5.0.0.150-SNAPSHOT</lucee.version>
+		<lucee.version>5.0.0.156-SNAPSHOT</lucee.version>
 	</properties>
 
 	<parent>
@@ -23,7 +23,7 @@
 		<repository>
 			<id>oss-sonatype</id>
 			<name>oss-sonatype</name>
-			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
