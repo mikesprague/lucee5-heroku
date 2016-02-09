@@ -4,13 +4,13 @@
 	<groupId>org.lucee.heroku</groupId>
 	<artifactId>lucee</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.11</version>
+	<version>1.0.12</version>
 	<name>Lucee 5 Heroku Application Template</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
 		<runwar.version>3.1.0</runwar.version>
-		<lucee.version>5.0.0.175-SNAPSHOT</lucee.version>
+		<lucee.version>5.0.0.178-BETA</lucee.version>
 	</properties>
 
 	<parent>
