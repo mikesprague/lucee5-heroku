@@ -4,14 +4,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>lucee.heroku</groupId>
   <artifactId>lucee.heroku</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <name>Lucee Heroku Application Template</name>
   <packaging>pom</packaging>
 
   <properties>
-        <lucee.version>5.0.0.98-SNAPSHOT</lucee.version>
-        <mysqlconnector.version>5.1.36</mysqlconnector.version>
-      <tomcatrunner.version>7.0.57.2</tomcatrunner.version>
+        <lucee.version>5.0.0.219-RC</lucee.version>
+        <mysqlconnector.version>5.1.38</mysqlconnector.version>
+      <tomcatrunner.version>7.0.68</tomcatrunner.version>
    </properties>
 
   <dependencies>
@@ -52,7 +52,7 @@
     <plugins>
       <plugin>
         <artifactId>maven-clean-plugin</artifactId>
-        <version>2.6.1</version>
+        <version>3.0.0</version>
         <configuration>
           <filesets>
             <fileset>
@@ -81,7 +81,7 @@
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-dependency-plugin</artifactId>
-            <version>2.3</version>
+            <version>2.10</version>
             <executions>
                 <execution>
                     <phase>package</phase>
