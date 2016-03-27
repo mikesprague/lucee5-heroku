@@ -10,7 +10,7 @@
   <properties>
     <lucee.version>5.0.0.219-RC</lucee.version>
     <mysqlconnector.version>5.1.38</mysqlconnector.version>
-    <tomcatrunner.version>7.0.68</tomcatrunner.version>
+    <tomcatrunner.version>7.0.57.2</tomcatrunner.version>
   </properties>
 
   <dependencies>
