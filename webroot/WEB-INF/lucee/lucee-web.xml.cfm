@@ -23,7 +23,7 @@ Path placeholders:
 	 -->
 	<setting/>
 
-	<compiler dot-notation-upper-case="false" />
+	<compiler dot-notation-upper-case="false"/>
 
 <!--	definition of all database used inside your application. 										-->
 <!--	above you can find some definition of jdbc drivers (all this drivers are included at lucee) 	-->
@@ -38,7 +38,7 @@ Path placeholders:
 	<resources>
 
     	<resource-provider arguments="case-sensitive:true;lock-timeout:1000;" class="lucee.commons.io.res.type.ram.RamResourceProvider" scheme="ram"/>
-    <resource-provider arguments="lock-timeout:10000;" class="lucee.commons.io.res.type.s3.S3ResourceProvider" scheme="s3"/></resources>
+    </resources>
 
     <remote-clients directory="{lucee-web}remote-client/"/>
 
@@ -49,7 +49,7 @@ Path placeholders:
 		tld-directory / fld-directory - directory where additional Function and Tag Library Deskriptor are.
 		temp-directory - directory for temporary files (upload aso.)
 	 -->
-	<file-system deploy-directory="{lucee-web}/cfclasses/" fld-directory="{lucee-web}/library/fld/" temp-directory="{lucee-web}/temp/" tld-directory="{lucee-web}/library/tld/"  allow-realpath="true">
+	<file-system allow-realpath="true" deploy-directory="{lucee-web}/cfclasses/" fld-directory="{lucee-web}/library/fld/" temp-directory="{lucee-web}/temp/" tld-directory="{lucee-web}/library/tld/">
 	</file-system>
 
 	<!--
