@@ -17,7 +17,6 @@ Demo: <https://lucee5.herokuapp.com/> | <https://lucee5.herokuapp.com/test.cfm> 
 ## Credits/Notes:
 
 - This project is based off of the offical Lucee Heroku Buildpack
-- You can also check out my version, with an older build style, running Lucee 4.5.x via Winstone on Heroku <https://github.com/mikesprague/lucee-heroku-template>
 
 ## Requirements
 
