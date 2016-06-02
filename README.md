@@ -12,7 +12,7 @@ Find this project useful? [Show some love :revolving_hearts:](https://www.creato
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-Demo: <https://lucee5.herokuapp.com/> | <https://lucee5.herokuapp.com/test.cfm> | <https://lucee5.herokuapp.com/test.lucee>
+Demo: [https://lucee5.herokuapp.com](https://lucee5.herokuapp.com) | [https://lucee5.herokuapp.com/test.cfm](https://lucee5.herokuapp.com/test.cfm)
 
 ## Credits/Notes:
 
