@@ -1,5 +1,5 @@
 <cfscript>
-	refURL="#CGI.CONTEXT_PATH#/lucee/doc.cfm";
+	refURL="http://docs.lucee.org";
 	wikiURL="https://bitbucket.org/lucee/lucee/wiki/Home";
 	bbURL="https://bitbucket.org/lucee/lucee";
 	adminURL="#CGI.CONTEXT_PATH#/lucee/admin.cfm";
@@ -8,7 +8,7 @@
 	mailinglistURL="https://groups.google.com/forum/##!forum/lucee";
 	profURL="https://www.lucee.org/support.html";
 	issueURL="https://bitbucket.org/lucee/lucee/issues";
-
+	newURL="http://docs.lucee.org/guides/lucee-5.html";
 </cfscript><!DOCTYPE html>
 <html>
 	<head>
@@ -44,7 +44,7 @@
 		        </div>
 		 	</header> -->
 
-
+						
 
 
 
@@ -58,14 +58,14 @@
 		<div class="container">
 			<div class="banner-content">
 				<cfoutput>
-				<img src="/assets/img/lucee-logo.png" alt="Lucee">
-				<h1>Welcome to your Lucee Installation!</h1>
-				<p class="lead-text">You are now successfully running Lucee #server.lucee.version# on Heroku!</p>
+				<img src="/assets/img/lucee-logo.png" alt="Lucee"> 
+				<h1>Welcome to your Lucee #ListFirst(server.lucee.version,'.')# Installation!</h1>
+				<p class="lead-text">You are now successfully running Lucee #server.lucee.version# on your system!</p>
 				</cfoutput>
 			</div>
 		</div>
 	</section>
-
+	
 
 
 	<section id="contents">
@@ -77,8 +77,8 @@
 
 					<div class="content-wrap">
 
-
-
+						
+						
 
 						<!--- <h1 class="blue">Important Notes</h1> --->
 
@@ -87,7 +87,29 @@
 
 
 							<cfoutput>
+							
+							<li class="listing-item thumb-large">
+								<div class="listing-thumb">
+									<a href="#refURL#">
+										<img src="/assets/img/img-new.png" alt="">
+									</a>
+								</div>
+								
 
+								<div class="listing-content">
+									<h2 class="title">
+										<a href="#newURL#">New in Lucee 5</a>
+									</h2>
+
+									<p>
+										Lucee 5 is the first major release after forking from the Railo project. Lucee 5 is not about dazzling new features but about improving the core language and providing a complete architectural overhaul of the engine.
+										This brings Lucee and CFML to a whole new level!
+									</p>
+
+								</div>
+								
+								<div class="clearfix"></div>
+							</li>
 
 							<li class="listing-item thumb-large">
 								<div class="listing-thumb">
@@ -95,7 +117,7 @@
 										<img src="/assets/img/img-first-steps.png" alt="">
 									</a>
 								</div>
-
+								
 
 								<div class="listing-content">
 									<h2 class="title">
@@ -103,12 +125,14 @@
 									</h2>
 
 									<p>If you are new to Lucee, please check our <a href="#wikiURL#" target="_blank">Wiki</a> where you will find useful resources to get you started with Lucee including a Cookbook with a growing list of examples.</p>
-
+							
 
 								</div>
-
+								
 								<div class="clearfix"></div>
 							</li>
+
+
 
 							<li class="listing-item thumb-large">
 								<div class="listing-thumb">
@@ -116,20 +140,19 @@
 										<img src="/assets/img/img-code.png" alt="">
 									</a>
 								</div>
-
+								
 
 								<div class="listing-content">
 									<h2 class="title">
-										<a href="#refURL#">Language Reference</a>
+										<a href="#refURL#">Documentation</a>
 									</h2>
 
-
 									<p>
-										Detailed Lucee language reference incorporating builtin functions,objects and tags.
+										Reference and guides to all things to do with the Lucee Server.
 									</p>
 
 								</div>
-
+								
 								<div class="clearfix"></div>
 							</li>
 
@@ -139,30 +162,30 @@
 										<img src="/assets/img/img-exclamation-mark.png" alt="">
 									</a>
 								</div>
-
+								
 
 								<div class="listing-content">
 									<h2 class="title">
 										<a href="#adminURL#	">Secure Administrators</a>
 									</h2>
 
-									<p>Warning! If you have installed Lucee on a public server you need to secure the <a href="#serverAdminURL#	">Server</a> and <a href="#webAdminURL#	">Web</a> admins OF EVERY CONTEXT with appropriate passwords or other access restrictions.
+									<p>Warning! If you have installed Lucee on a public server you need to secure the <a href="#serverAdminURL#	">Server</a> and <a href="#webAdminURL#	">Web</a> admins OF EVERY CONTEXT with appropriate passwords or other access restrictions. 
 
 In addition you should set a default password in the Server admin for all web admins to be sure they are protected by default</p>
 
 
 								</div>
-
+								
 								<div class="clearfix"></div>
 
 							</li>
 						</cfoutput>
 						</ul>
 					</div>
-
+					
 
 				</div>
-
+				
 
 				<div class="col-md-4 sidebar">
 
@@ -175,11 +198,11 @@ In addition you should set a default password in the Server admin for all web ad
 							<!--- lucee.org --->
 							<p class="file-link"><a href="http://www.lucee.org">Lucee Association Switzerland</a></p>
 							<p>Non-profit custodians and maintainers of the Lucee Project</p>
-
-							<!--- Bitbucket
+							
+							<!--- Bitbucket 
 							<p class="file-link">Lucee Bitbucket</a></p>
 							<p>Access the source code and builds</p> --->
-
+							
 							<!--- Mailinglist --->
 							<p class="file-link"><a href="##">Get Involved</a></p>
 							<p>
@@ -189,9 +212,9 @@ In addition you should set a default password in the Server admin for all web ad
 							- <a href="#bbURL#">Contribute</a> to the code<br />
 							- <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LKLC7KH4JRQ8J&">Support</a> the project<br />
 							</p>
+							
 
-
-
+	
 
 							<!--- Prof Services --->
 							<p class="file-link"><a href="#profURL#">Professional Services</a></p>
@@ -204,18 +227,18 @@ In addition you should set a default password in the Server admin for all web ad
 						</div>
 						</cfoutput>
 					</div>
-
+					
 				</div>
-
+				
 
 			</div>
-
+			
 
 		</div>
-
+		
 
 	</section>
-
+	
 
 
 
@@ -229,37 +252,37 @@ In addition you should set a default password in the Server admin for all web ad
 		                        <a href="/" class="footer-logo">
 		                            <img src="/assets/img/lucee-logo.png" alt="Lucee">
 		                        </a>
-
+		                        
 
 		                    </div>
-
+		                    
 
 		                    <div class="col-md-5 col-sm-4">
 		                        <p class="copyright-text">Copyright &copy; 2015 by the Lucee Association Switzerland</p>
 		                    </div>
-
+		                    
 
 
 
 		                </div>
-
+		                
 
 		            </div>
-
+		            
 
 		        </div>
-
+		        
 
 		    </footer><!-- End of footer -->
 
         </div> <!-- End of .main-wrapper -->
 
 
+		
+	
 
-
-
-
-
+	
+		
 
 <script src="/assets/js/lib/jquery-1.10.1.min.js"></script>
 <script src="/assets/js/lib/bootstrap.min.js"></script>
@@ -267,5 +290,5 @@ In addition you should set a default password in the Server admin for all web ad
 <script src="/assets/js/lib/SmoothScroll.js"></script>
 
 	</body>
-
+	
 </html>

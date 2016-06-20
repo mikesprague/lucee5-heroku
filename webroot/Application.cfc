@@ -1,6 +1,6 @@
 component output="false" {
 
-	this.name = "cfml_lucee_aplication_demo_" & hash( cgi.server_name, "MD5", "utf-8" );
+	this.name = "cfml_lucee5_aplication_demo_" & hash( cgi.server_name, "MD5", "utf-8" );
 	this.locale = "en_US";
 	this.timezone = "America/New_York";
 	this.charset.web="UTF-8";
