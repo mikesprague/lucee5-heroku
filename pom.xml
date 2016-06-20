@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>lucee.heroku</groupId>
   <artifactId>lucee.heroku</artifactId>
-  <version>1.2.2</version>
+  <version>1.2.3</version>
   <name>Lucee Heroku Application Template</name>
   <packaging>pom</packaging>
 
@@ -70,6 +70,24 @@
   <build>
     <plugins>
       <plugin>
+        <groupId>com.versioneye</groupId>
+        <artifactId>versioneye-maven-plugin</artifactId>
+        <version>3.9.2</version>
+        <executions>
+          <execution>
+            <phase>install</phase>
+            <goals>
+              <goal>update</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <apiKey>6c98055bd75fdb10f5e0</apiKey>
+          <projectId>57673e8c276f0f0052974a19</projectId>
+        </configuration>
+      </plugin>
+
+      <plugin>
         <artifactId>maven-clean-plugin</artifactId>
         <version>3.0.0</version>
         <configuration>
@@ -109,6 +127,7 @@
             </goals>
             <configuration>
               <artifactItems>
+
                 <artifactItem>
                   <groupId>com.github.jsimone</groupId>
                   <artifactId>webapp-runner</artifactId>
@@ -166,7 +185,6 @@
             </goals>
             <configuration>
               <outputDirectory>webroot/WEB-INF/lucee-server/bundles</outputDirectory>
-
             </configuration>
           </execution>
         </executions>
@@ -187,7 +205,6 @@
               <goal>run</goal>
             </goals>
           </execution>
-
         </executions>
       </plugin>
 
