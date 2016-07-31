@@ -1,4 +1,4 @@
-[![Dependency Status](https://www.versioneye.com/user/projects/57673e8c276f0f0052974a19/badge.svg?style=flat)](https://www.versioneye.com/user/projects/57673e8c276f0f0052974a19)
+[![Dependency Status](https://www.versioneye.com/user/projects/57673e8c276f0f0052974a19/badge.svg?style=flat)](https://www.versioneye.com/user/projects/57673e8c276f0f0052974a19)    [![Codewake](https://www.codewake.com/badges/codewake.svg)](https://www.codewake.com/p/lucee-5-application-template-for-heroku)
 
 # Lucee 5 Application Template for Heroku
 
