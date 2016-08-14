@@ -11,6 +11,7 @@
     <lucee.version>5.1.0.17-BETA</lucee.version>
     <mysqlconnector.version>6.0.3</mysqlconnector.version>
     <tomcatrunner.version>8.0.33.0</tomcatrunner.version>
+    <versioneye.version>3.10.2</versioneye.version>
   </properties>
 
   <dependencies>
@@ -72,7 +73,7 @@
       <plugin>
         <groupId>com.versioneye</groupId>
         <artifactId>versioneye-maven-plugin</artifactId>
-        <version>3.10.0</version>
+        <version>${versioneye.version}</version>
         <executions>
           <execution>
             <phase>install</phase>
