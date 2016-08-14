@@ -40,7 +40,7 @@ NOTE: On Windows, start foreman with the following command:
 $ foreman start -f Procfile.dev
 ```
 
-You should now have Lucee up and running at <http://localhost:5000>. Start adding your code (Lucee code in /src and static files in /pub).
+You should now have Lucee up and running at <http://localhost:5000>. Start adding your code.
 
 To deploy your site to Heroku you need to setup a free Heroku account, install the Heroku toolbelt (Suggested reading: [Getting Started with Java on Heroku](https://devcenter.heroku.com/articles/getting-started-with-java)). Then..
 
