@@ -42,7 +42,7 @@ $ foreman start -f Procfile.dev
 
 You should now have Lucee up and running at <http://localhost:5000>. Start adding your code.
 
-To deploy your site to Heroku you need to setup a free Heroku account, install the Heroku toolbelt (Suggested reading: [Getting Started with Java on Heroku](https://devcenter.heroku.com/articles/getting-started-with-java)). Then..
+To deploy your site to Heroku you need to setup a free Heroku account, install the Heroku toolbelt (Suggested reading: [Getting Started with Java on Heroku](https://devcenter.heroku.com/articles/getting-started-with-java)). Then...
 
 ```bash
 $ heroku apps:create [NAME]
@@ -51,5 +51,7 @@ $ heroku open
 ```
 
 You should now be looking at your app running on Heroku.
+
+NOTE: If you get a Heroku application error try reloading the page. This is a known issue. I think the Lucee dependencies aren't quite ready when this happens, I need to look into it further.
 
 Enjoy!
