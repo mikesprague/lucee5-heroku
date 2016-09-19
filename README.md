@@ -52,6 +52,10 @@ $ heroku open
 
 You should now be looking at your app running on Heroku.
 
-NOTE: If you get a Heroku application error try reloading the page. This is a known issue. I think the Lucee dependencies aren't quite ready when this happens, I need to look into it further.
+NOTES:
+
+* If you need access to the admin, desiable the first rule in urlrewrite.xml.
+* Default password for server and web admins is `password`. This should be changed to something secure before deploying your app.
+* If you get a Heroku application error try reloading the page. This is a known issue. I think the Lucee dependencies aren't quite ready when this happens, I need to look into it further.
 
 Enjoy!
