@@ -96,6 +96,17 @@
         <artifactId>maven-clean-plugin</artifactId>
         <version>${mvnclean.version}</version>
         <configuration>
+          <fileset>
+            <directory>webroot/WEB-INF/lucee-server</directory>
+            <includes>
+              <include>**/*</include>
+            </includes>
+            <excludes>
+              <exclude>*.xml</exclude>
+              <exclude>**/lucee-server.xml</exclude>
+            </excludes>
+            <followSymlinks>false</followSymlinks>
+          </fileset>
           <filesets>
             <fileset>
               <directory>webroot/WEB-INF</directory>
@@ -104,16 +115,8 @@
               </includes>
               <excludes>
                 <exclude>*.xml</exclude>
-                <exclude>**/lucee-server.xml</exclude>
                 <exclude>**/lucee-web.xml.cfm</exclude>
               </excludes>
-              <followSymlinks>false</followSymlinks>
-            </fileset>
-            <fileset>
-              <directory>webroot/WEB-INF/lucee-server</directory>
-              <includes>
-                <include>**/*</include>
-              </includes>
               <followSymlinks>false</followSymlinks>
             </fileset>
           </filesets>
