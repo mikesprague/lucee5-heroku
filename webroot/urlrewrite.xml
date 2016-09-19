@@ -2,7 +2,7 @@
 <!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN"
         "http://urlrewritefilter.googlecode.com/svn/trunk/src/java/org/tuckey/web/filters/urlrewrite/dtds/urlrewrite4.0.dtd">
 <urlrewrite>
-    <rule enabled="true">
+    <rule enabled="false">
         <note>If the request is for Lucee admin, don't process any further rules</note>
         <from>^/lucee/(.*)</from>
         <to>/index.cfm</to>
