@@ -1,4 +1,4 @@
-[![Dependency Status](https://www.versioneye.com/user/projects/57673e8c276f0f0052974a19/badge.svg?style=flat)](https://www.versioneye.com/user/projects/57673e8c276f0f0052974a19)    [![Codewake](https://www.codewake.com/badges/codewake.svg)](https://www.codewake.com/p/lucee-5-application-template-for-heroku)
+[![Dependency Status](https://www.versioneye.com/user/projects/57673e8c276f0f0052974a19/badge.svg?style=flat)](https://www.versioneye.com/user/projects/57673e8c276f0f0052974a19)
 
 # Lucee 5 Application Template for Heroku
 
@@ -57,6 +57,8 @@ NOTES:
 * If you need access to the admin, disable the first rule in urlrewrite.xml.
 * Default password for web admins is `password`. This should be changed to something secure before deploying your app.
 * Make any settings (datasources, mail settings, etc.) changes you want locally via the web context, commit your changes and then deploy your app and they will also exist on Heroku.
+  * Better practice to add any settings changes, datasources, etc. via Application.cfc; use web context for changes if you must set them via Lucee Admin
+  * Server context will be overwritten on deploy, very important desired changes are made to web context if you wish to keep them
 * If you get a Heroku application error try reloading the page. This is a known issue. I think the Lucee dependencies aren't quite ready when this happens, I need to look into it further.
 
 Enjoy!
