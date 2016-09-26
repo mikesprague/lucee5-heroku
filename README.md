@@ -62,3 +62,11 @@ NOTES:
 * If you get a Heroku application error try reloading the page. This is a known issue. I think the Lucee dependencies aren't quite ready when this happens, I need to look into it further.
 
 Enjoy!
+
+## Known Projects Using the Lucee 5 Application Template for Heroku
+
+Have a project making use of this application template? Lem me know and I'll be happy to list it below!
+
+* [Wheelie CMS](https://github.com/timsayshey/wheelie/) developed by [Tim Badolato (@timsayshey)](https://github.com/timsayshey)
+  * CFWheels and Lucee powered CMS with one-click Heroku deploy powered by this project
+  * Check out the project repo for full details: [https://github.com/timsayshey/wheelie/](https://github.com/timsayshey/wheelie/)
