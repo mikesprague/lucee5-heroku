@@ -3,14 +3,14 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>lucee.heroku</groupId>
   <artifactId>lucee.heroku</artifactId>
-  <version>1.4.1</version>
+  <version>1.5.0</version>
   <name>Lucee Heroku Application Template</name>
   <packaging>pom</packaging>
 
   <properties>
     <lucee.version>5.1.0.31</lucee.version>
     <mysqlconnector.version>6.0.4</mysqlconnector.version>
-    <tomcatrunner.version>8.0.33.2</tomcatrunner.version>
+    <tomcatrunner.version>8.5.5.0</tomcatrunner.version>
     <versioneye.version>3.10.2</versioneye.version>
     <mvnclean.version>3.0.0</mvnclean.version>
     <mvndep.version>2.10</mvndep.version>
