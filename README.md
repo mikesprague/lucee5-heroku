@@ -1,4 +1,4 @@
-[![Dependency Status](https://www.versioneye.com/user/projects/57673e8c276f0f0052974a19/badge.svg?style=flat)](https://www.versioneye.com/user/projects/57673e8c276f0f0052974a19)
+[![Dependency Status](https://www.versioneye.com/user/projects/57fcb9c89907da004067f78c/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/57fcb9c89907da004067f78c)
 
 # Lucee 5 Application Template for Heroku
 
