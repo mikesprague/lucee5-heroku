@@ -11,7 +11,7 @@
     <lucee.version>5.2.1.9</lucee.version>
     <mysqlconnector.version>6.0.5</mysqlconnector.version>
     <tomcatrunner.version>8.5.5.0</tomcatrunner.version>
-    <versioneye.version>3.11.0</versioneye.version>
+    <versioneye.version>3.11.4</versioneye.version>
     <mvnclean.version>3.0.0</mvnclean.version>
     <mvndep.version>2.10</mvndep.version>
     <tuckeyurl.version>4.0.4</tuckeyurl.version>
