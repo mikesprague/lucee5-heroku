@@ -9,7 +9,7 @@
 
   <properties>
     <lucee.version>5.2.2.70-RC</lucee.version>
-    <mysqlconnector.version>6.0.5</mysqlconnector.version>
+    <mysqlconnector.version>6.0.6</mysqlconnector.version>
     <webapprunner.version>8.5.15.1</webapprunner.version>
     <versioneye.version>3.11.4</versioneye.version>
     <mvnclean.version>3.0.0</mvnclean.version>
