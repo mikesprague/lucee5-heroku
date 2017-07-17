@@ -15,7 +15,7 @@
     <mvnclean.version>3.0.0</mvnclean.version>
     <mvndep.version>3.0.1</mvndep.version>
     <tuckeyurl.version>4.0.4</tuckeyurl.version>
-    <apachefelix.version>4.2.1</apachefelix.version>
+    <apachefelix.version>5.6.4</apachefelix.version>
   </properties>
 
   <dependencies>
