@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>lucee.heroku</groupId>
   <artifactId>lucee.heroku</artifactId>
-  <version>1.7.1-RC</version>
+  <version>1.7.2-RC</version>
   <name>Lucee Heroku Application Template</name>
   <packaging>pom</packaging>
 
