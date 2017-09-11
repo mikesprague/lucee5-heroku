@@ -8,7 +8,7 @@
   <packaging>pom</packaging>
 
   <properties>
-    <lucee.version>5.2.3.34-RC</lucee.version>
+    <lucee.version>5.2.3.35</lucee.version>
     <mysqlconnector.version>6.0.6</mysqlconnector.version>
     <webapprunner.version>8.5.20.0</webapprunner.version>
     <versioneye.version>3.11.4</versioneye.version>
