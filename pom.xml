@@ -13,7 +13,7 @@
     <webapprunner.version>8.5.20.1</webapprunner.version>
     <versioneye.version>3.11.4</versioneye.version>
     <mvnclean.version>3.0.0</mvnclean.version>
-    <mvndep.version>3.0.1</mvndep.version>
+    <mvndep.version>3.0.2</mvndep.version>
     <tuckeyurl.version>4.0.4</tuckeyurl.version>
     <apachefelix.version>5.6.4</apachefelix.version>
   </properties>
