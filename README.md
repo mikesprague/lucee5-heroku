@@ -1,6 +1,6 @@
-[![Dependency Status](https://www.versioneye.com/user/projects/57fcb9c89907da004067f78c/badge.svg?style=flat-square)](https://www.versioneye.com/user/projects/57fcb9c89907da004067f78c)
-
 # Lucee 5 Application Template for Heroku
+
+[![Known Vulnerabilities](https://snyk.io/test/github/mikesprague/lucee5-heroku/badge.svg?targetFile=pom.xml)](https://snyk.io/test/github/mikesprague/lucee5-heroku?targetFile=pom.xml)
 
 Blank application template to deploy [Lucee 5](http://lucee.org) apps on Heroku
 
