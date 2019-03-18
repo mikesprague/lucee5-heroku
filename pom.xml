@@ -11,7 +11,7 @@
     <lucee.version>5.2.4.37-RC</lucee.version>
     <mysqlconnector.version>6.0.6</mysqlconnector.version>
     <webapprunner.version>8.5.20.1</webapprunner.version>
-    <versioneye.version>3.11.4</versioneye.version>
+    <mvnclean.version>3.1.0</mvnclean.version>
     <mvnclean.version>3.0.0</mvnclean.version>
     <mvndep.version>3.0.2</mvndep.version>
     <tuckeyurl.version>4.0.4</tuckeyurl.version>
@@ -56,24 +56,6 @@
 
   <build>
     <plugins>
-      <plugin>
-        <groupId>com.versioneye</groupId>
-        <artifactId>versioneye-maven-plugin</artifactId>
-        <version>${versioneye.version}</version>
-        <executions>
-          <execution>
-            <phase>install</phase>
-            <goals>
-              <goal>update</goal>
-            </goals>
-          </execution>
-        </executions>
-        <configuration>
-          <apiKey>6c98055bd75fdb10f5e0</apiKey>
-          <projectId>57fcb9c89907da004067f78c</projectId>
-        </configuration>
-      </plugin>
-
       <plugin>
         <artifactId>maven-clean-plugin</artifactId>
         <version>${mvnclean.version}</version>
