@@ -1,3 +1,9 @@
+.vscode
+.history
+.settings
+.project
+*.code-workspace
+target
 .tags
 .htaccess
 target
