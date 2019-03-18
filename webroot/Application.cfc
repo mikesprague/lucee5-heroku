@@ -21,8 +21,8 @@ component output="false" {
 	this.scriptProtect = true;
 
 	/**
-		@hint "Runs when an application times out or the server is shutting down."
-		@ApplicationScope "The application scope."
+	 * @hint "Runs when an application times out or the server is shutting down."
+	 * @ApplicationScope "The application scope."
 	*/
 	public void function onApplicationEnd(struct ApplicationScope=structNew()) {
 
@@ -31,8 +31,8 @@ component output="false" {
 
 
 	/**
-		@hint "Runs when ColdFusion receives the first request for a page in the application."
-		@output "false"
+	 * @hint "Runs when ColdFusion receives the first request for a page in the application."
+	 * @output "false"
 	*/
 	public void function onApplicationStart() {
 
@@ -41,9 +41,9 @@ component output="false" {
 
 
 	/**
-		@hint "Runs when a session ends."
-		@SessionScope "The Session scope"
-		@ApplicationScope "The Application scope"
+	 * @hint "Runs when a session ends."
+	 * @SessionScope "The Session scope"
+	 * @ApplicationScope "The Application scope"
 	*/
 	public void function onSessionEnd(required struct SessionScope, struct ApplicationScope=structNew()) {
 
@@ -52,7 +52,7 @@ component output="false" {
 
 
 	/**
-		@hint "Runs when a session starts."
+	 * @hint "Runs when a session starts."
 	*/
 	public void function onSessionStart() {
 
@@ -61,7 +61,7 @@ component output="false" {
 
 
 	/**
-		@hint "Runs at the end of a request, after all other CFML code."
+	 * @hint "Runs at the end of a request, after all other CFML code."
 	*/
 	public void function onRequestEnd() {
 
@@ -70,8 +70,8 @@ component output="false" {
 
 
 	/**
-		@hint "Runs when a request starts."
-		@TargetPage "Path from the web root to the requested page."
+	 * @hint "Runs when a request starts."
+	 * @TargetPage "Path from the web root to the requested page."
 	*/
 	public boolean function onRequestStart(required string TargetPage) {
 
@@ -81,8 +81,8 @@ component output="false" {
 
 
 	/**
-		@hint "Runs when a request specifies a non-existent CFML page."
-		@TargetPage "The path from the web root to the requested CFML page."
+	 * @hint "Runs when a request specifies a non-existent CFML page." 
+	 * @TargetPage "The path from the web root to the requested CFML page."
 	*/
 	public boolean function onMissingTemplate(required string TargetPage) {
 		var pageRequested = trim(arguments.targetPage);
@@ -92,9 +92,9 @@ component output="false" {
 
 
 	/**
-		@hint "Runs when an uncaught exception occurs in the application."
-		@Exception "The ColdFusion Exception object. For information on the structure of this object, see the description of the cfcatch variable in the cfcatch description."
-		@EventName "The name of the event handler that generated the exception. If the error occurs during request processing and you do not implement an onRequest method, EventName is the empty string."
+	 * @hint "Runs when an uncaught exception occurs in the application."
+	 * @Exception "The ColdFusion Exception object. For information on the structure of this object, see the description of the cfcatch variable in the cfcatch description."
+	 * @EventName "The name of the event handler that generated the exception. If the error occurs during request processing and you do not implement an onRequest method, EventName is the empty string."
 	*/
 	public void function onError(required any Exception, required string EventName) {
 
