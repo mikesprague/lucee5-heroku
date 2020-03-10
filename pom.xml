@@ -8,7 +8,7 @@
   <packaging>pom</packaging>
 
   <properties>
-    <lucee.version>5.3.4.77</lucee.version>
+    <lucee.version>5.3.4.80</lucee.version>
     <mysqlconnector.version>8.0.19</mysqlconnector.version>
     <webapprunner.version>9.0.27.1</webapprunner.version>
     <mvnclean.version>3.1.0</mvnclean.version>
@@ -28,7 +28,7 @@
   <repositories>
     <repository>
       <id>central</id>
-      <url>http://repo1.maven.org/maven2</url>
+      <url>https://repo1.maven.org/maven2</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -42,7 +42,7 @@
     <pluginRepository>
       <id>central</id>
       <name>Maven Plugin Repository</name>
-      <url>http://repo1.maven.org/maven2</url>
+      <url>https://repo1.maven.org/maven2</url>
       <layout>default</layout>
       <snapshots>
         <enabled>false</enabled>
