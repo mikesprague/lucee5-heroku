@@ -6,10 +6,6 @@ Blank application template to deploy [Lucee 5](http://lucee.org) apps on Heroku
 
 ---
 
-Find this project useful? [Show some love :revolving_hearts:](https://www.creatorlove.com/mikesprague/lucee-5-heroku-buildpack) and buy me a cup of cofee! :coffee:
-
----
-
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 Demo: [https://lucee5.herokuapp.com](https://lucee5.herokuapp.com) | [https://lucee5.herokuapp.com/test.cfm](https://lucee5.herokuapp.com/test.cfm)
