@@ -8,13 +8,13 @@
   <packaging>pom</packaging>
 
   <properties>
-    <lucee.version>5.3.7.47</lucee.version>
-    <mysqlconnector.version>8.0.20</mysqlconnector.version>
+    <lucee.version>5.3.8.179-RC</lucee.version>
+    <mysqlconnector.version>8.0.25</mysqlconnector.version>
     <webapprunner.version>9.0.27.1</webapprunner.version>
     <mvnclean.version>3.1.0</mvnclean.version>
-    <mvndep.version>3.1.2</mvndep.version>
+    <mvndep.version>3.2.0</mvndep.version>
     <tuckeyurl.version>4.0.4</tuckeyurl.version>
-    <apachefelix.version>6.0.3</apachefelix.version>
+    <apachefelix.version>7.0.0</apachefelix.version>
   </properties>
 
   <dependencies>
